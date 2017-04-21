@@ -11,7 +11,7 @@ class SharedData:
 		try:
 			with open(self.file_path) as file:
 			file_content = file.read()
-				file.close()
+			file.close()
 		except IOError:
 			file_content = "{}"
 
